@@ -1,0 +1,24 @@
+.custom-checkbox {
+    &.checked {
+        label {
+            color: $text-muted;
+            text-decoration: line-through;
+        }
+    }
+}
+
+.form-control {
+    &.alt {
+        background: none;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        border-bottom: 3px solid $secondary;
+        color: $dark;
+        padding: 0;
+
+        &:focus {
+            border-color: $primary;
+        }
+    }
+}

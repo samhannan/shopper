@@ -1,0 +1,9 @@
+export const VIEW_INDEX = 'index';
+export const VIEW_NEW_RECIPE = 'new_recipe';
+export const VIEW_UPDATE_RECIPE = 'update_recipe';
+export const VIEW_SHOPPING_LIST = 'shopping_list';
+export const MEASUREMENT_QUANTITY = 'quantity';
+export const MEASUREMENT_WEIGHT = 'weight';
+export const STORAGE_KEY_RECIPES = 'recipes';
+export const STORAGE_KEY_SHOPPING_LIST = 'shoppingListItems';
+export const STORAGE_KEY_IGNORE_INSTALL = 'ignoreInstall';

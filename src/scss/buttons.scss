@@ -1,0 +1,17 @@
+.btn {
+    &.btn-primary {
+        color: $white;
+    }
+    &.btn-secondary {
+        color: rgba($black, .7);
+    }
+    &.btn-link {
+        color: $white;
+    }
+    &.btn-light {
+        &.semi {
+            border: none;
+            background: rgba($color: $light, $alpha: 0.5);
+        }
+    }
+}
